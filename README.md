@@ -16,10 +16,10 @@ Bibliotecas utilizadas:
   react-native-geolocation-service
 
 SOBRE O APP:<br/>
-  O app consiste em um sincronizador, que vai pegar a localização do usuario, e enviar para o backend em intervalos de tempo. O app tem duas telas, a primeira tela e para iniciar o serviço e configurar o intervalo de sincronização, a segunda contem uma lista com os pacotes sincronizados ou nao.
+  O app consiste em um sincronizador, que vai pegar a localização do usuario, e enviar para o backend em intervalos de tempo. O app tem duas telas, a primeira tela é para iniciar o serviço e configurar o intervalo de sincronização, a segunda contem uma lista com os pacotes sincronizados ou nao.
   
 LOCALIZAÇÃO:<br/>
-  A localização e obtida atraves do seguinte metodo.
+  A localização é obtida atraves do seguinte metódo.
 ```
 if (permission) {
         await Geolocation.getCurrentPosition(       //se as permissões foram aceitas, obtemos a localização aqui
@@ -87,7 +87,7 @@ BackgroundTimer.setInterval(() => {
       }
     });
   ```
-  Esse metodo verifica se tem internet, em caso de true, ele envia ao backend o pacote, em caso de false, ele salva o pacote com status "Não sincronizado".
+  Esse metódo verifica se tem internet, em caso de true, ele envia ao backend o pacote, em caso de false, ele salva o pacote com status "Não sincronizado".
   Uitlizando o Hook useEffect, e feita uma verificação para quando a internet voltar, ser iniciado um forEach subindo apenas os pacotes que tem o status "Não sincronizado".
   ```
   function upPacksNoSync(){

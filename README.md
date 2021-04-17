@@ -15,10 +15,10 @@ Bibliotecas utilizadas:
   @react-native-community/netinfo <br/>
   react-native-geolocation-service
 
-SOBRE O APP:
+SOBRE O APP:<br/>
   O app consiste em um sincronizador, que vai pegar a localização do usuario, e enviar para o backend em intervalos de tempo. O app tem duas telas, a primeira tela e para iniciar o serviço e configurar o intervalo de sincronização, a segunda contem uma lista com os pacotes sincronizados ou nao.
   
-LOCALIZAÇÃO
+LOCALIZAÇÃO:<br/>
   A localização e obtida atraves do seguinte metodo.
 ```
 if (permission) {
@@ -40,7 +40,7 @@ if (permission) {
       }
 ```
 
-A SINCRONIZAÇÃO
+A SINCRONIZAÇÃO:<br/>
   Apos iniciar o serviço alternando o Switch para ativado o seguinte metodo começa a rodar.
 ```
 BackgroundTimer.setInterval(() => {

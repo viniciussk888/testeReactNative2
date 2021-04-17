@@ -8,7 +8,7 @@ Segundo teste para vaga React Native - Contele
 
 Projeto React Native Cli, desenvolvido com base na proposta fornecida pela empresa em: https://github.com/contele/cntl-test/tree/master/react-native
 
-Bibliotecas utilizadas:
+Bibliotecas utilizadas:<br/>
   react-native-background-timer <br/>
   @react-navigation/native <br/>
   react-native-uuid <br/>
